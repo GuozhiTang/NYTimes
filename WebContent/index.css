@@ -1,0 +1,48 @@
+@charset "UTF-8";
+body{
+    margin: 150px auto;
+}
+.title{
+   top: 0;
+   padding: .6em;
+   
+   width: 100%;
+   text-align: center;
+   position: fixed;
+   background-color: white;
+   box-shadow: 0 10px 5px lightgrey;
+}
+
+.search{
+    text-align: center;
+    margin: 17em auto;
+}
+input[type="text"]
+{
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('https://www.w3schools.com/css/searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 30px 12px 50px;
+}
+input[type="text"]:focus
+{
+    border: 1px solid #555;
+}
+input[type="submit"]
+{
+   cursor: pointer;
+   font-size: 16px;
+   padding: 12px 10px;
+   border:2px solid #ccc;
+   border-radius: 4px;
+   background-color: white;
+}
+input[type="submit"]:hover{
+    background-color: #ccc;
+    color: white;
+}
